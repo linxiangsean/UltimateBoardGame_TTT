@@ -1,9 +1,10 @@
-package main.java.model.board;
+package model.board;
 
-import main.java.gameIO.IGameModel;
-import main.java.model.modelToView.ICommand;
-import main.java.model.move.*;
-import main.java.model.utility.Dimension;
+import gameIO.IGameModel;
+import gameIO.IGameModel;
+import model.modelToView.ICommand;
+import model.move.*;
+import model.utility.Dimension;
 
 
 public abstract class ABoardModel implements IBoardModel{
@@ -43,13 +44,11 @@ public abstract class ABoardModel implements IBoardModel{
 		else {
 			this.map(n, new IBoardLambada(){
 
-				@Override
 				public boolean apply(int i, IBoardModel iboardmodel, Object obj, int j, int k, int l) {
 					ABoardModel.this.state = (IBoardState)NonTerminalState.Singleton;
 					return false;
 				}
 
-				@Override
 				public void noApply(int i, IBoardModel iboardmodel, Object obj) {
 					ABoardModel.this.state = (IBoardState)DrawState.Singleton;					
 				}
@@ -63,11 +62,9 @@ public abstract class ABoardModel implements IBoardModel{
 	public void reset() {
 		this.mapAll(0, new IBoardLambada() {
 
-			@Override
-			public void noApply(int i, IBoardModel iboardmodel, Object obj) {				
+			public void noApply(int i, IBoardModel iboardmodel, Object obj) {
 			}
 
-			@Override
 			public boolean apply(int i, IBoardModel iboardmodel, Object obj, int j, int k, int l) {
 				ABoardModel.this.cells[j][k] = 0;
 				return true;
@@ -108,12 +105,10 @@ public abstract class ABoardModel implements IBoardModel{
 	public void redrawAll(final ICommand command) {
 		this.mapAll(0, new IBoardLambada() {
 
-			@Override
 			public void noApply(int i, IBoardModel iboardmodel, Object obj) {
 				throw new IllegalStateException("ABoardModel.redrawAll(): noApply() should be unreachable!");
 			}
 
-			@Override
 			public boolean apply(int i, IBoardModel iboardmodel, Object obj, int j, int k, int l) {
 				l = ABoardModel.this.cells[j][k];
 				if (l == 0) {
@@ -131,12 +126,11 @@ public abstract class ABoardModel implements IBoardModel{
 		final boolean[] array = { false };
 		this.map(n, new IBoardLambada(){
 
-			@Override
 			public boolean apply(int i, IBoardModel iboardmodel, Object obj, int j, int k, int l) {
 				return false;
 			}
 
-			@Override
+
 			public void noApply(int i, IBoardModel iboardmodel, Object obj) {
 				array[0] = true;
 			}

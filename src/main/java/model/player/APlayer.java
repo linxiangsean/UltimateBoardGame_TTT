@@ -1,6 +1,6 @@
-package main.java.model.player;
+package model.player;
 
-import main.java.model.viewToModel.IRequestor;
+import model.viewToModel.IRequestor;
 
 public abstract class APlayer {
 

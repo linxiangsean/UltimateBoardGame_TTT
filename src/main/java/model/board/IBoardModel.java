@@ -1,12 +1,13 @@
-package main.java.model.board;
+package model.board;
 
 
-import main.java.model.modelToView.*;
-import main.java.model.move.IBoardLambada;
-import main.java.model.move.IBoardStatusVisitor;
-import main.java.model.move.ICheckMoveVisitor;
-import main.java.model.move.IUndoMove;
-import main.java.model.utility.*;
+import model.modelToView.*;
+import model.move.IBoardLambada;
+import model.move.IBoardStatusVisitor;
+import model.move.ICheckMoveVisitor;
+import model.move.IUndoMove;
+import model.utility.*;
+import model.utility.Dimension;
 
 /**
  * 

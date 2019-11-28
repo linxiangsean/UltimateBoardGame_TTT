@@ -1,4 +1,4 @@
-package main.java.model.utility;
+package model.utility;
 
 /**
  * The <code>Dimension</code> class encapsulates the width and

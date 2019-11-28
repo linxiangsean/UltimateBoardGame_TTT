@@ -1,7 +1,7 @@
-package main.java.gameIO;
+package gameIO;
 
-import main.java.model.board.IBoardModel;
-import main.java.model.modelToView.ICommand;
+import model.board.IBoardModel;
+import model.modelToView.ICommand;
 
 /**
  * This interface represents the model for a game in an MVC architecture.

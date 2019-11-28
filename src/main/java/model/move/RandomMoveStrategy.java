@@ -1,14 +1,13 @@
-package main.java.model.move;
+package model.move;
 
 import java.util.Random;
 
-import main.java.gameIO.IGameModel;
-import main.java.model.utility.Point;
+import gameIO.IGameModel;
+import model.utility.Point;
 
 
 public class RandomMoveStrategy implements INextMoveStrategy {
 
-	@Override
 	public Point getNextMove(IGameModel game, int player) {
 		Random rand = new Random();
 		int wBound = game.getBoardModel().getDimension().getWidth();
@@ -16,6 +15,4 @@ public class RandomMoveStrategy implements INextMoveStrategy {
 		Point p = new Point(rand.nextInt(wBound), rand.nextInt(hBound));
 		return p;
 	}
-
-	
 }

@@ -1,4 +1,4 @@
-package main.java.model.move;
+package model.move;
 
 /**
  * This interface encapsulates the commands to follow when 

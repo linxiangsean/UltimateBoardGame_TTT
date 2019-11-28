@@ -1,11 +1,12 @@
-package main.java.model.player;
+package model.player;
 
 
-import main.java.gameIO.IGameModel;
-import main.java.model.modelToView.*;
-import main.java.model.move.*;
-import main.java.model.utility.*;
-import main.java.model.viewToModel.*;
+import gameIO.IGameModel;
+import model.modelToView.*;
+import model.move.*;
+import model.utility.*;
+import model.viewToModel.*;
+import model.utility.Point;
 
 // Referenced classes of package model:
 //APlayer, INextMoveStrategy, IRequestor, IRejectCommand
@@ -31,7 +32,7 @@ public class ComputerPlayer extends APlayer{
 	 */
 	public void takeTurn(){
 		System.out.print("Computer player " + getPlayer() + " (" + this + ") takes turn...");
-		Point p = this.iNextMoveStrategy.getNextMove(this.gameModel, super.getPlayer());
+		final Point p = this.iNextMoveStrategy.getNextMove(this.gameModel, super.getPlayer());
 		System.out.println("and moves to " + p);
 		getRequestor().setTokenAt(p.x, p.y, super.getPlayer(), new IRejectCommand(){
 			public void execute(){

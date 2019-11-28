@@ -1,4 +1,4 @@
-package main.java.model.move;
+package model.move;
 
 /**
  * Encapsulates the variant behavior for an undo process.

@@ -1,4 +1,4 @@
-package main.java.model.viewToModel;
+package model.viewToModel;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package main.java.model.board;
+package model.board;
 
-import main.java.model.move.IBoardLambada;
-import main.java.model.move.IBoardStatusVisitor;
+import model.move.IBoardLambada;
+import model.move.IBoardStatusVisitor;
 
 // Referenced classes of package model.board:
 //  IBoardState

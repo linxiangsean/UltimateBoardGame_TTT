@@ -1,14 +1,14 @@
-package main.java.model.player;
+package model.player;
 
 import java.util.Scanner;
 
-import main.java.model.modelToView.*;
-import main.java.model.utility.Point;
-import main.java.model.viewToModel.*;
+import model.modelToView.*;
+import model.utility.Point;
+import model.viewToModel.*;
 
 public class HumanPlayer extends APlayer{
 
-	private ITurnManager turnManager;
+	private model.viewToModel.ITurnManager turnManager;
 
 	public  HumanPlayer(IRequestor iRequestor, int player, ITurnManager turnManager){
 		super(iRequestor, player);
@@ -30,10 +30,8 @@ public class HumanPlayer extends APlayer{
 		
 		turnManager.takeTurn(new IViewRequestor() {	
 			
-			@Override
 			public void setTokenAt(int row, int col, final IRejectCommand rejectCommand) {
 				getRequestor().setTokenAt(row, col, getPlayer() , new IRejectCommand(){
-					@Override
 					public void execute() {
 						rejectCommand.execute();
 						takeTurn();

@@ -1,6 +1,6 @@
-package main.java.model.viewToModel;
+package model.viewToModel;
 
-import main.java.model.modelToView.IRejectCommand;
+import model.modelToView.IRejectCommand;
 
 /**
  * This interface encapsulates the request mechanism used by an APlayer 

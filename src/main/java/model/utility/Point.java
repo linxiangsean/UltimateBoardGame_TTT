@@ -1,4 +1,4 @@
-package main.java.model.utility;
+package model.utility;
 
 /**
  * A point representing a location in {@code (x,y)} coordinate space,

@@ -1,6 +1,6 @@
-package main.java.model.viewToModel;
+package model.viewToModel;
 
-import main.java.model.modelToView.IRejectCommand;
+import model.modelToView.IRejectCommand;
 
 /**
  * This interface is used by the view to tell a HumanPlayer 

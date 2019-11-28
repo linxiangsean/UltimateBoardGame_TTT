@@ -1,4 +1,4 @@
-package main.java.model.modelToView;
+package model.modelToView;
 
 /**
  * Management interface for the view

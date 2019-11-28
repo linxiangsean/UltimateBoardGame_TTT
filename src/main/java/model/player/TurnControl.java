@@ -1,4 +1,4 @@
-package main.java.model.player;
+package model.player;
 
 // Referenced classes of package model:
 //      APlayer

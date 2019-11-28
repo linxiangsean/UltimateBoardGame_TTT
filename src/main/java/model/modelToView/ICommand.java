@@ -1,4 +1,4 @@
-package main.java.model.modelToView;
+package model.modelToView;
 
 /**
  * The command supplied by the view that enables the model to set a token 

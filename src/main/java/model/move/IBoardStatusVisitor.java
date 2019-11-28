@@ -1,6 +1,6 @@
-package main.java.model.move;
+package model.move;
 
-import main.java.model.board.IBoardModel;
+import model.board.IBoardModel;
 
 /**
  * The visitor to an IBoardModel that provides variant behaviors for the different states of the board.

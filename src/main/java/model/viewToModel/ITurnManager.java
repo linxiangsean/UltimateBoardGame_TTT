@@ -1,4 +1,4 @@
-package main.java.model.viewToModel;
+package model.viewToModel;
 
 /**
  * The interface used to tell the view that the user needs to try a move.

@@ -1,16 +1,16 @@
 /**
  * 
  */
-package main.java.model;
+package model;
 
 import java.util.*;
 
-import main.java.gameIO.IModelCombo;
-import main.java.model.board.*;
-import main.java.model.modelToView.*;
-import main.java.model.move.*;
-import main.java.model.player.*;
-import main.java.model.viewToModel.*;
+import gameIO.IModelCombo;
+import model.board.*;
+import model.modelToView.*;
+import model.move.*;
+import model.player.*;
+import model.viewToModel.*;
 
 /**
  * based on design patterns for games : https://www2.cs.duke.edu/courses/cps108/spring04/notes/zungmvc.pdf
@@ -86,41 +86,35 @@ public final class GameModel implements IModelCombo {
 	 */
 	private IRequestor requestor = new IRequestor() {
 
-		@Override
-		public void setTokenAt(int row, int col, int player, IRejectCommand rejectCommand) {
+		public void setTokenAt(final int row, final int col, final int player, final IRejectCommand rejectCommand) {
 			boardModel.makeMove(row, col, player, 
 
 					new ICheckMoveVisitor() {
 
-				@Override
+
 				public void validMoveCase() {
 					iCommand.setTokenAt(row, col, player);
 				}
-				@Override
 				public void invalidMoveCase() {
 					rejectCommand.execute();
 				}
 			}, 
 					new IBoardStatusVisitor() {
 
-				@Override
 				public Object player1WonCase(IBoardModel host, Object param) {
 					viewManager.win(1);
 					return null;
 				}
 
-				@Override
 				public Object player0WonCase(IBoardModel host, Object param) {
 					viewManager.win(0);
 					return null;
 				}
 
-				@Override
 				public Object noWinnerCase(IBoardModel host, Object param) {
 					return null;
 				}
 
-				@Override
 				public Object drawCase(IBoardModel host, Object param) {
 					viewManager.draw();
 					return null;

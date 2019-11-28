@@ -1,7 +1,7 @@
-package main.java.model.board;
+package model.board;
 
-import main.java.model.move.IBoardLambada;
-import main.java.model.move.IBoardStatusVisitor;
+import model.move.IBoardLambada;
+import model.move.IBoardStatusVisitor;
 
 public class NonTerminalState implements IBoardState
 {
@@ -28,10 +28,10 @@ public class NonTerminalState implements IBoardState
         }
     }
     
-    public Object execute(final IBoardStatusVisitor boardStatusVisitor, final Object o, final IBoardModel boardModel) {
+    public Object execute( IBoardStatusVisitor boardStatusVisitor, final Object o, final IBoardModel boardModel) {
         return boardStatusVisitor.noWinnerCase(boardModel, o);
     }
-    
+
     static {
         NonTerminalState.Singleton = new NonTerminalState();
     }

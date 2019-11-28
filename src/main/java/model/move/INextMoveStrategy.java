@@ -1,9 +1,9 @@
-package main.java.model.move;
+package model.move;
 
 
 
-import main.java.gameIO.IGameModel;
-import main.java.model.utility.*;
+import gameIO.IGameModel;
+import model.utility.*;
 
 /**
  *	Algorithm to calculate the next move
@@ -17,7 +17,7 @@ public interface INextMoveStrategy {
 	 * @param player : The player whose move is being calculated.
 	 * @return : Calculates the next move as a Point (x = column, y = row).
 	 */
-	public abstract Point getNextMove(IGameModel context, int player);
+	public abstract model.utility.Point getNextMove(IGameModel context, int player);
 	
 }
 

@@ -1,8 +1,8 @@
-package main.java.gameIO;
+package gameIO;
 
-import main.java.model.modelToView.IViewManager;
-import main.java.model.viewToModel.IModelManager;
-import main.java.model.viewToModel.ITurnManager;
+import model.modelToView.IViewManager;
+import model.viewToModel.IModelManager;
+import model.viewToModel.ITurnManager;
 
 /**
  * Combines the running and management interfaces of the model.

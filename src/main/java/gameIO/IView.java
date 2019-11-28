@@ -1,11 +1,11 @@
-package main.java.gameIO;
+package gameIO;
 
 
 import java.util.List;
 
-import main.java.model.modelToView.ICommand;
-import main.java.model.utility.*;
-import main.java.model.viewToModel.IViewRequestor;
+import model.modelToView.ICommand;
+import model.utility.*;
+import model.viewToModel.IViewRequestor;
 
 /**
  * The running interface of the view.
@@ -18,7 +18,7 @@ public interface IView {
 	public abstract ICommand getCommand();
 	
 	/**
-	 * @param requestor : For use by the view
+	 * @param iViewRequestor : For use by the view
 	 */
 	public abstract void setiViewRequestor(IViewRequestor iViewRequestor);
 	

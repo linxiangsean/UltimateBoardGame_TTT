@@ -1,6 +1,6 @@
-package main.java.model.move;
+package model.move;
 
-import main.java.model.board.IBoardModel;
+import model.board.IBoardModel;
 
 public interface IBoardLambada {
 	
