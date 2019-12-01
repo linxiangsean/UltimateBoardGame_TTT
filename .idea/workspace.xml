@@ -2,83 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0995af48-aabc-4067-bf23-9d6af251adc4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TTTGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gameIO/IGameModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gameIO/IModelCombo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/gameIO/IView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel$IMakePlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/GameModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/ABoardModel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/ABoardModel$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/ABoardModel$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/ABoardModel$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/ABoardModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/ATerminalState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/DrawState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/IBoardModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/IBoardState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/NonTerminalState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/Player0WinState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/Player1WinState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/TTTBoard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/board/TTTBoardTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/modelToView/ICommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/modelToView/IRejectCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/modelToView/IViewManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTReject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTViewManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/IBoardLambada.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/IBoardStatusVisitor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/ICheckMoveVisitor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/INextMoveStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/IUndoMove.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/IUndoVisitor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/move/RandomMoveStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/APlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/ComputerPlayer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/ComputerPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/HumanPlayer$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/HumanPlayer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/HumanPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/TurnControl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/TurnControl$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/TurnControl$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/TurnControl$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/TurnControl$ANextTurn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/player/TurnControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/utility/Dimension.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/utility/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/IModelManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/IRequestor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/ITurnManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/IViewRequestor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/TTTTurnManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.jacoco.examples.maven.java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/org.jacoco.examples.maven.java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TTTGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TTTGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/board/ABoardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/board/ABoardModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/board/TTTBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/board/TTTBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/board/TTTBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/board/TTTBoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/modelToView/TTTCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/modelToView/TTTCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/modelToView/TTTReject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/modelToView/TTTReject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/modelToView/TTTViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/modelToView/TTTViewManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/viewToModel/TTTTurnManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/viewToModel/TTTTurnManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -445,7 +371,7 @@
       <updated>1574976969078</updated>
       <workItem from="1574976971996" duration="3164000" />
       <workItem from="1575137412663" duration="8218000" />
-      <workItem from="1575170834346" duration="3598000" />
+      <workItem from="1575170834346" duration="3766000" />
     </task>
     <servers />
   </component>

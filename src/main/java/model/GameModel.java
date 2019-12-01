@@ -72,8 +72,6 @@ public final class GameModel implements IModelCombo {
 	 * @param nCols The number of columns in the board.
 	 */
 	public GameModel(int nRows, int nCols) {
-		//boardModel = new TicTacToeBoard(nRows,nCols, this);
-		// boardModel = new OthelloBoard(nRows, nCols);
 		boardModel = new TTTBoard(nRows,nCols,this);
 	}
 
