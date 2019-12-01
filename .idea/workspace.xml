@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0995af48-aabc-4067-bf23-9d6af251adc4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/board/TTTBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/board/TTTBoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TTTGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TTTGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/board/TTTBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/board/TTTBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/board/TTTBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/board/TTTBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/board/TTTBoardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/board/TTTBoardTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/modelToView/TTTCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/modelToView/TTTReject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTReject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/modelToView/TTTViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTViewManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/viewToModel/TTTTurnManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/TTTTurnManager.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TTTBoardTest.">
+  <component name="RunManager" selected="Application.TTTGame">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -432,10 +420,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TTTGame" />
         <item itemvalue="TestNG.TTTBoardTest." />
         <item itemvalue="TestNG.TTTBoardTest.moveTest" />
         <item itemvalue="TestNG.TTTBoardTest" />
-        <item itemvalue="Application.TTTGame" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +444,7 @@
       <updated>1574976969078</updated>
       <workItem from="1574976971996" duration="3164000" />
       <workItem from="1575137412663" duration="8218000" />
-      <workItem from="1575170834346" duration="4733000" />
+      <workItem from="1575170834346" duration="5251000" />
     </task>
     <servers />
   </component>

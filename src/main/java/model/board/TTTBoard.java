@@ -160,7 +160,7 @@ public class TTTBoard extends ABoardModel {
             if(cells[0][0] == cells[1][1] && cells[1][1] == cells[2][2] && cells[2][2] == player) {//diagonal
                 return true;
             }
-            if(cells[2][0] == cells[1][1] && cells[1][1] == cells[2][0] && cells[2][0] == player){//offdiagonal
+            if(cells[2][0] == cells[1][1] && cells[1][1] == cells[0][2] && cells[0][2] == player){//offdiagonal
                 return true;
             }
         }
