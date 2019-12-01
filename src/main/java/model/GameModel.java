@@ -74,6 +74,7 @@ public final class GameModel implements IModelCombo {
 	public GameModel(int nRows, int nCols) {
 		//boardModel = new TicTacToeBoard(nRows,nCols, this);
 		// boardModel = new OthelloBoard(nRows, nCols);
+		boardModel = new TTTBoard(nRows,nCols,this);
 	}
 
 	public GameModel(IBoardModel boardModel) {
@@ -186,7 +187,7 @@ public final class GameModel implements IModelCombo {
 			}
 		});
 
-		// TODO: ADD COMPUTER PLAYER WITH OTHER NEXT MOVE STRATEGY
+		//TODO: ADD COMPUTER PLAYER WITH OTHER NEXT MOVE STRATEGY
 
 		return playerList;
 	}

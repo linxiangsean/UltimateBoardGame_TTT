@@ -30,7 +30,6 @@ public abstract class ABoardModel implements IBoardModel{
 	}
 
 	public Dimension getDimension() {
-
 		return new Dimension(this.cells[0].length, this.cells.length);
 	}
 
@@ -102,12 +101,12 @@ public abstract class ABoardModel implements IBoardModel{
 
 	public abstract boolean isValidMove(final int p0, final int p1, final int p2);
 
-	public void redrawAll(final ICommand command) {
+	public void redrawAll(final ICommand command){
 		this.mapAll(0, new IBoardLambada() {
 
 			public void noApply(int i, IBoardModel iboardmodel, Object obj) {
 				throw new IllegalStateException("ABoardModel.redrawAll(): noApply() should be unreachable!");
-			}
+		}
 
 			public boolean apply(int i, IBoardModel iboardmodel, Object obj, int j, int k, int l) {
 				l = ABoardModel.this.cells[j][k];

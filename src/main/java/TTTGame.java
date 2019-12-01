@@ -1,17 +1,22 @@
-package main.java;
 
 import java.util.List;
 
-import java.model.GameModel;
-import main.java.model.modelToView.CheckersViewManager;
-import main.java.model.modelToView.Command;
-import main.java.model.viewToModel.CheckersTurnManager;
+import model.GameModel;
+import model.modelToView.TTTViewManager;
+import model.modelToView.TTTCommand;
+import model.viewToModel.TTTTurnManager;
 
-public class CheckersGame {
+
+/**
+ * This is the main function of the game entry.
+ *
+ * @author Dehu Kong, Xiang Lin, Jingwen Zhang
+ */
+public class TTTGame {
     public static void main(String[] args) {
         GameModel game = new GameModel(3, 3);
-        game.setViewManager(new CheckersViewManager(), new CheckersTurnManager());
-        game.setCommand(new Command());
+        game.setViewManager(new TTTViewManager(), new TTTTurnManager());
+        game.setCommand(new TTTCommand());
         List<Object> players = game.getPlayers();
         game.setPlayers(players.get(0), players.get(1));
     }
