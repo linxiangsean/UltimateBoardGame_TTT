@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="0995af48-aabc-4067-bf23-9d6af251adc4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/board/TTTBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/board/TTTBoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TTTGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TTTGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/board/TTTBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/board/TTTBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/board/TTTBoardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/board/TTTBoardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/modelToView/TTTCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/modelToView/TTTReject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTReject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/modelToView/TTTViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/modelToView/TTTViewManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/viewToModel/TTTTurnManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/viewToModel/TTTTurnManager.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TTTBoardTest.">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -321,6 +333,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TTTBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="org.jacoco.examples.maven.java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.board" />
+      <option name="MAIN_CLASS_NAME" value="model.board.TTTBoardTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTTBoardTest." type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="org.jacoco.examples.maven.java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="model.board" />
+      <option name="MAIN_CLASS_NAME" value="model.board.TTTBoardTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTTBoardTest.moveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="org.jacoco.examples.maven.java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.board" />
+      <option name="MAIN_CLASS_NAME" value="model.board.TTTBoardTest" />
+      <option name="METHOD_NAME" value="moveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -348,8 +424,17 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.TTTGame" />
+      <item itemvalue="TestNG.TTTBoardTest" />
+      <item itemvalue="TestNG.TTTBoardTest.moveTest" />
+      <item itemvalue="TestNG.TTTBoardTest." />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TTTBoardTest." />
+        <item itemvalue="TestNG.TTTBoardTest.moveTest" />
+        <item itemvalue="TestNG.TTTBoardTest" />
         <item itemvalue="Application.TTTGame" />
       </list>
     </recent_temporary>
@@ -371,7 +456,7 @@
       <updated>1574976969078</updated>
       <workItem from="1574976971996" duration="3164000" />
       <workItem from="1575137412663" duration="8218000" />
-      <workItem from="1575170834346" duration="3766000" />
+      <workItem from="1575170834346" duration="4733000" />
     </task>
     <servers />
   </component>
