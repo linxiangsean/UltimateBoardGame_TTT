@@ -1,7 +1,9 @@
-package model.viewToModel;
+package TTTGame;
 
 import model.modelToView.IRejectCommand;
-import model.modelToView.TTTReject;
+import model.viewToModel.ITurnManager;
+import model.viewToModel.IViewRequestor;
+
 import java.util.Scanner;
 
 /**

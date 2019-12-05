@@ -1,4 +1,6 @@
-package model.modelToView;
+package TTTGame;
+
+import model.modelToView.ICommand;
 
 /**
  * This TTTCommand class implements Icommand interface. A concrete solution of printing command for TTT Game

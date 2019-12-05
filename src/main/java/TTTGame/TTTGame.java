@@ -1,10 +1,8 @@
+package TTTGame;
 
 import java.util.List;
 
 import model.GameModel;
-import model.modelToView.TTTViewManager;
-import model.modelToView.TTTCommand;
-import model.viewToModel.TTTTurnManager;
 
 
 /**

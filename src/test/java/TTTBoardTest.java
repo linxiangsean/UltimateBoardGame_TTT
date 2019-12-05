@@ -1,8 +1,5 @@
-package model.board;
-
 import model.GameModel;
-import model.board.TTTBoard;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 
@@ -11,13 +8,13 @@ public class TTTBoardTest {
     GameModel game = new GameModel(3, 3);
 
     @Test
-    void moveTest(){
+    public void moveTest(){
         assertTrue(game.getBoardModel().isValidMove(1,0,1));
         assertFalse(game.getBoardModel().isValidMove(1,3,3));
     }
 
     @Test
-    void resetTest(){
+    public void resetTest(){
 
         game.getBoardModel().reset();
         int count = 0 ;

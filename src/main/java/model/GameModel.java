@@ -5,6 +5,7 @@ package model;
 
 import java.util.*;
 
+import TTTGame.TTTBoard;
 import gameIO.IModelCombo;
 import model.board.*;
 import model.modelToView.*;
@@ -72,7 +73,7 @@ public final class GameModel implements IModelCombo {
 	 * @param nCols The number of columns in the board.
 	 */
 	public GameModel(int nRows, int nCols) {
-		boardModel = new TTTBoard(nRows,nCols,this);
+		  boardModel = new TTTBoard(nRows,nCols,this);
 	}
 
 	public GameModel(IBoardModel boardModel) {

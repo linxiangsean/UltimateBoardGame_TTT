@@ -1,4 +1,6 @@
-package model.modelToView;
+package TTTGame;
+
+import model.modelToView.IViewManager;
 
 /**
  * This TTTViewManager class implements IViewManager interface.

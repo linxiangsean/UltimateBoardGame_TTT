@@ -1,7 +1,8 @@
-package model.board;
+package TTTGame;
 
 import gameIO.IGameModel;
 
+import model.board.ABoardModel;
 import model.move.IBoardStatusVisitor;
 import model.move.ICheckMoveVisitor;
 import model.move.IUndoMove;

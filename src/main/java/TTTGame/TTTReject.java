@@ -1,4 +1,6 @@
-package model.modelToView;
+package TTTGame;
+
+import model.modelToView.IRejectCommand;
 
 /**
  * This TTTReject class implements IRejectCommand interface. A concrete solution of printing invalid move for TTT Game
